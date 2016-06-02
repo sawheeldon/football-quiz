@@ -29,12 +29,15 @@ General styles (General Module, wrapping around the modules bellow)
      background-color: #7AFF5C;
  }
 
+ .my-main-header {
+     padding-top: 2rem;
+ }
+
  h1 {
      color: aliceblue;
      text-align: center;
      font-family: 'Chewy', cursive;
      font-size: 35px;
-     padding: 0.5rem;
  }
 
  .my-box-1,
@@ -44,6 +47,7 @@ General styles (General Module, wrapping around the modules bellow)
      text-align: center;
      font-family: 'Bangers', cursive;
      font-size: 20px;
+     border: 2px solid gray
  }
 
  -------------------------------
