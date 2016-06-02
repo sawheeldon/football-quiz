@@ -32,13 +32,22 @@ General styles (General Module, wrapping around the modules bellow)
  h1 {
      color: aliceblue;
      text-align: center;
+     font-family: 'Chewy', cursive;
+     font-size: 35px;
+     padding: 0.5rem;
  }
 
- .my-box-1 {
-     background-color: dimgray;
+ .my-box-1,
+ .my-box-2,
+ .my-box-3 {
+     background-color: aliceblue;
+     text-align: center;
+     font-family: 'Bangers', cursive;
+     font-size: 20px;
  }
- /* -------------------------------------
-Header styles (Main Module)
+
+ -------------------------------
+ /*Header styles (Main Module)
 (all the styles inside the < header > or < nav > tags)
 */
  /* -------------------------------------
@@ -55,34 +64,3 @@ Responsive styles
 (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
 place all the mobile tables styles bellow this line
 */
- /*ipad lanscape / small laptop*/
-
- @media only screen and (max-width: 1024px) {
-     /* acting like an IF statement, the media query is a set of conditions in which the containing css will be applied
-    for example the statament above says: IF the media on which this CSS is going to used is SCREEN (Mobiles, Tables, Laptops, Desktops or Projectors) and the maximum resolution of that device is 1024px, THEN apply the body color blue for all the text
-    */
-     body {
-         color: blue;
-     }
- }
- /*ipad potrait*/
-
- @media only screen and (max-width: 768px) {
-     body {
-         color: red;
-     }
- }
- /*iPhone landscape*/
-
- @media only screen and (max-width: 480px) {
-     body {
-         color: green;
-     }
- }
- /*iPhone portrait*/
-
- @media only screen and (max-width: 320px) {
-     body {
-         color: purple;
-     }
- }
