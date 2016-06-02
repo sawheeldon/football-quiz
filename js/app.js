@@ -54,18 +54,23 @@ var questionsArray = [
 
             //question 8
             {
-                questionAsked: ".",
-                questionChoices: ["."],
-                questionAnswer: 1,
+                questionAsked: "Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?",
+                questionChoices: ["Gordon Ramsay", "Matt Busby", "Andrei Kanchelskis"],
+                questionAnswer: 2,
             },
 
             //question 9
             {
-                questionAsked: ".",
-                questionChoices: ["."],
-                questionAnswer: 1,
+                questionAsked: "Who is the only player to win back-to-back trebles (domestic title, domestic cup and Champions League) in European club football?",
+                questionChoices: ["Messi", "Ronaldo", "Ronaldinho", "Eto"],
+                questionAnswer: 3,
             },
-
+            //question 10
+            {
+                questionAsked: "Who is the only manager to have managed teams in all three UEFA club competition finals (Champions League, UEFA Cup and Cup Winners' Cup), without winning any of them?",
+                questionChoices: ["Ranieri", "Hiddink", "Lippi", "Wenger"],
+                questionAnswer: 3,
+            },
 
             ]
 
