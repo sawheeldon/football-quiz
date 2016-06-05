@@ -19,11 +19,35 @@
         <header class="col-xs-6 col-xs-offset-3">
             <h1>Fantastical, Fantasy, Football Mania... Quiz</h1></header>
 
-        <section class="quiz-intro col-xs-6 col-xs-offset-3 my-box-1">"blah"</section>
-        <section class="quiz-questions col-xs-6 col-xs-offset-3 my-box-2">"blah"</section>
-        <section class="quiz-results col-xs-6 col-xs-offset-3 my-box-3">"Blah"</section>
+        <section class="quiz-intro col-xs-6 col-xs-offset-3 my-box-1 start-section">
+            <h2 class="text">Fancy a kick about?</h2>
+            <p class="text">Then dont hang about, take our Footy Quiz now!</p>
+            <button class="btn btn-default start-button" id="startQuizButton">START</button>
+        </section>
+        <section class="quiz-questions col-xs-6 col-xs-offset-3 my-box-2 quiz-section">
+           <div id="question-wrapper">
+            <h1 class="text" id="question"> Who is Manchester City's new manager for 2016/17 season.</h1>
+                <div id="choices">
+                    <input class="option" type="radio" value="0" name="option">
+                    <br>
+                    <input class="option" type="radio" value="1" name="option">
+                    <br>
+                    <input class="option" type="radio" value="2" name="option">
+                    <br>
+                    <input class="option" type="radio" value="3" name="option">
+                    <br>
+                </div>
+           </div>
+           <div class="question-number" id="questionNumberDisplay">Question 1 of 10</div>
+        </section>
+        <section class="quiz-results col-xs-6 col-xs-offset-3 my-box-3 result-section">
+            <h2 class="text">Final Score</h2>
+            <h3 class="text" id="finalScore">10/10</h3>
+            <div id="result-msg"></div>
+            <button class="btn btn-default start-button" id="tryagain">Try Again</button>
+        </section>
 
-        <footer class="col-xs-6 col-xs-offset-3">""</footer>
+        <footer class="col-xs-6 col-xs-offset-3"></footer>
     </main>
 
     <script src="js/jquery-2.2.4.min.js"></script>
